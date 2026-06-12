@@ -1,0 +1,16 @@
+{
+    "name": "vault-with-fargate",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/node": "^18",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@pulumi/aws": "^7.0.0",
+        "@pulumi/awsx": "^3.0.0",
+        "@pulumi/pulumi": "^3.113.0",
+        "@pulumi/pulumiservice": "^1.2.1",
+        "@pulumi/random": "^4.21.0",
+        "@pulumi/vault": "^7.10.0"
+    }
+}
